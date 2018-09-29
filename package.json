@@ -1,23 +1,34 @@
-{ "name" : "diffbot",
-  "description" : "Node.js wrapper for the Diffbot Article and Frontpage APIs",
-  "tags" : ["diffbot", "wrapper", "api", "article"],
-  "version" : "1.0.3",
-  "author" : "Mark Bao <mark@markbao.com>",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/markbao/node-diffbot.git"
+{
+  "name": "diffbot",
+  "description": "Node.js wrapper for the Diffbot Article and Frontpage APIs",
+  "tags": [
+    "diffbot",
+    "wrapper",
+    "api",
+    "article"
+  ],
+  "version": "1.0.3",
+  "author": "Mark Bao <mark@markbao.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markbao/node-diffbot.git"
   },
-  "bugs" : {
-    "web" : "https://github.com/markbao/node-diffbot/issues"
+  "bugs": {
+    "web": "https://github.com/markbao/node-diffbot/issues"
   },
-  "dependencies" : {
-    "request":""
+  "dependencies": {
+    "postman-request": "^2.88.1-postman.1",
+    "request": "^2.88.0"
   },
-  "keywords": ["diffbot"],
-  "contributors" : [{
-    "name": "Pauli Jokela"
-  }],
-  "main" : "./main",
-  "license" : "Apache-2.0",
-  "homepage" : "https://github.com/markbao/node-diffbot"
+  "keywords": [
+    "diffbot"
+  ],
+  "contributors": [
+    {
+      "name": "Pauli Jokela"
+    }
+  ],
+  "main": "./main",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/markbao/node-diffbot"
 }
